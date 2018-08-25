@@ -1,0 +1,42 @@
+C:\Users\Porter\Source\repos\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.1\PeopleSearch.deps.json
+C:\Users\Porter\Source\repos\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.1\PeopleSearch.runtimeconfig.json
+C:\Users\Porter\Source\repos\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.1\PeopleSearch.runtimeconfig.dev.json
+C:\Users\Porter\Source\repos\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.1\PeopleSearch.dll
+C:\Users\Porter\Source\repos\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.1\PeopleSearch.pdb
+C:\Users\Porter\Source\repos\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.1\PeopleSearch.csproj.CoreCompileInputs.cache
+C:\Users\Porter\Source\repos\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.1\PeopleSearch.RazorAssemblyInfo.cache
+C:\Users\Porter\Source\repos\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.1\PeopleSearch.RazorAssemblyInfo.cs
+C:\Users\Porter\Source\repos\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.1\PeopleSearch.AssemblyInfoInputs.cache
+C:\Users\Porter\Source\repos\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.1\PeopleSearch.AssemblyInfo.cs
+C:\Users\Porter\Source\repos\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.1\PeopleSearch.RazorTargetAssemblyInfo.cache
+C:\Users\Porter\Source\repos\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.1\PeopleSearch.dll
+C:\Users\Porter\Source\repos\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.1\PeopleSearch.pdb
+C:\Users\Porter\Source\repos\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.1\PeopleSearch.csprojAssemblyReference.cache
+C:\Users\Porter\Source\repos\WebApplication1\PeopleSearch\obj\Debug\netcoreapp2.1\PeopleSearch.dll
+C:\Users\Porter\Source\repos\WebApplication1\PeopleSearch\obj\Debug\netcoreapp2.1\PeopleSearch.pdb
+C:\Users\Porter\Source\repos\WebApplication1\PeopleSearch\bin\Debug\netcoreapp2.1\PeopleSearch.deps.json
+C:\Users\Porter\Source\repos\WebApplication1\PeopleSearch\bin\Debug\netcoreapp2.1\PeopleSearch.runtimeconfig.json
+C:\Users\Porter\Source\repos\WebApplication1\PeopleSearch\bin\Debug\netcoreapp2.1\PeopleSearch.runtimeconfig.dev.json
+C:\Users\Porter\Source\repos\WebApplication1\PeopleSearch\bin\Debug\netcoreapp2.1\PeopleSearch.dll
+C:\Users\Porter\Source\repos\WebApplication1\PeopleSearch\bin\Debug\netcoreapp2.1\PeopleSearch.pdb
+C:\Users\Porter\Source\repos\WebApplication1\PeopleSearch\obj\Debug\netcoreapp2.1\PeopleSearch.csprojAssemblyReference.cache
+C:\Users\Porter\Source\repos\WebApplication1\PeopleSearch\obj\Debug\netcoreapp2.1\PeopleSearch.csproj.CoreCompileInputs.cache
+C:\Users\Porter\Source\repos\WebApplication1\PeopleSearch\obj\Debug\netcoreapp2.1\PeopleSearch.RazorAssemblyInfo.cache
+C:\Users\Porter\Source\repos\WebApplication1\PeopleSearch\obj\Debug\netcoreapp2.1\PeopleSearch.RazorAssemblyInfo.cs
+C:\Users\Porter\Source\repos\WebApplication1\PeopleSearch\obj\Debug\netcoreapp2.1\PeopleSearch.AssemblyInfoInputs.cache
+C:\Users\Porter\Source\repos\WebApplication1\PeopleSearch\obj\Debug\netcoreapp2.1\PeopleSearch.AssemblyInfo.cs
+C:\Users\Porter\Source\repos\WebApplication1\PeopleSearch\obj\Debug\netcoreapp2.1\PeopleSearch.RazorTargetAssemblyInfo.cache
+C:\Users\Porter\Documents\Projects\people-search\Backend Server\PeopleSearch\bin\Debug\netcoreapp2.1\PeopleSearch.deps.json
+C:\Users\Porter\Documents\Projects\people-search\Backend Server\PeopleSearch\bin\Debug\netcoreapp2.1\PeopleSearch.runtimeconfig.json
+C:\Users\Porter\Documents\Projects\people-search\Backend Server\PeopleSearch\bin\Debug\netcoreapp2.1\PeopleSearch.runtimeconfig.dev.json
+C:\Users\Porter\Documents\Projects\people-search\Backend Server\PeopleSearch\bin\Debug\netcoreapp2.1\PeopleSearch.dll
+C:\Users\Porter\Documents\Projects\people-search\Backend Server\PeopleSearch\bin\Debug\netcoreapp2.1\PeopleSearch.pdb
+C:\Users\Porter\Documents\Projects\people-search\Backend Server\PeopleSearch\obj\Debug\netcoreapp2.1\PeopleSearch.csprojAssemblyReference.cache
+C:\Users\Porter\Documents\Projects\people-search\Backend Server\PeopleSearch\obj\Debug\netcoreapp2.1\PeopleSearch.csproj.CoreCompileInputs.cache
+C:\Users\Porter\Documents\Projects\people-search\Backend Server\PeopleSearch\obj\Debug\netcoreapp2.1\PeopleSearch.RazorAssemblyInfo.cache
+C:\Users\Porter\Documents\Projects\people-search\Backend Server\PeopleSearch\obj\Debug\netcoreapp2.1\PeopleSearch.RazorAssemblyInfo.cs
+C:\Users\Porter\Documents\Projects\people-search\Backend Server\PeopleSearch\obj\Debug\netcoreapp2.1\PeopleSearch.AssemblyInfoInputs.cache
+C:\Users\Porter\Documents\Projects\people-search\Backend Server\PeopleSearch\obj\Debug\netcoreapp2.1\PeopleSearch.AssemblyInfo.cs
+C:\Users\Porter\Documents\Projects\people-search\Backend Server\PeopleSearch\obj\Debug\netcoreapp2.1\PeopleSearch.RazorTargetAssemblyInfo.cache
+C:\Users\Porter\Documents\Projects\people-search\Backend Server\PeopleSearch\obj\Debug\netcoreapp2.1\PeopleSearch.dll
+C:\Users\Porter\Documents\Projects\people-search\Backend Server\PeopleSearch\obj\Debug\netcoreapp2.1\PeopleSearch.pdb

@@ -6,19 +6,20 @@
     </div>
     <div class="row">
       <div class="col-md-12">
-        <!-- <clip-loader v-if="tableLoading"></clip-loader> -->
-
-        <b-form-input v-model="search" type="text" placeholder="Search by name"></b-form-input>
+        <b-button-group>
+        <b-form-input v-model="searchDelay" type="text" placeholder="Search by name"></b-form-input>
+        <b-button @click="delaySearch">Search</b-button>
+        </b-button-group>
 
         <table class="table table-striped table-bordered table-sm">
 
             <thead>
               <tr>
-                <th @click="sort('name')">Name</th>
-                <th @click="sort('age')">Age</th>
-                <th @click="sort('eyecolor')">Eye Color</th>
-                <th @click="sort('address')">Address</th>
-                <th @click="sort('fact')">Fact</th>
+                <th>Name</th> <!-- Could add @click="sort(Name)" to add sorting functionality later on -->
+                <th>Age</th>
+                <th>Eye Color</th>
+                <th>Address</th>
+                <th>Fact</th>
                 <th>Avatar</th>
               </tr>
             </thead>
@@ -33,8 +34,10 @@
               </tr>
             </tbody>
           </table>
+          <clip-loader v-if="loader"></clip-loader>
         <p>
-<!--           <button @click="prevPage">Previous</button>
+      <!-- Pagination and Sorting would be next on the list if it was required. Ideally the API would handle it. -->
+      <!--<button @click="prevPage">Previous</button>
           <button @click="nextPage">Next</button> -->
         </p>
 
@@ -45,7 +48,8 @@
 </template>
 
 <script>
-/* import ClipLoader from 'vue-spinner/src/PulseLoader.vue' */
+import ClipLoader from 'vue-spinner/src/PulseLoader.vue'
+import axios from 'axios'
 
 export default {
   name: 'PeopleSearch',
@@ -53,60 +57,50 @@ export default {
     return {
       msg: 'People Search',
       search: '',
-      people: [
-        {name: 'Jared Johnson',
-          age: 33,
-          eyecolor: 'Blue',
-          address: '1234 Avenue',
-          fact: 'Likes ketchup on most everything',
-          image: 'https://api.adorable.io/avatars/285/jared@adorable.io.png'},
-        {name: 'Katherine Ayne',
-          age: 21,
-          eyecolor: 'Brown Bakerson',
-          address: '1234 Pkwy',
-          fact: 'Saw a kangaroo once',
-          image: 'https://api.adorable.io/avatars/285/katherine@adorable.io.png'},
-        {name: 'Katy Courts',
-          age: 45,
-          eyecolor: 'Brown Calebs',
-          address: '1234 Cir',
-          fact: 'Reads LotR fan-fiction for fun',
-          image: 'https://api.adorable.io/avatars/285/katy@adorable.io.png'},
-        {name: 'James Hansen',
-          age: 32,
-          eyecolor: 'Green',
-          address: '1234 Way',
-          fact: 'Writes a lot of LotR fan-fiction',
-          image: 'https://api.adorable.io/avatars/285/james@adorable.io.png'},
-        {name: 'Jonathan Greendale',
-          age: 70,
-          eyecolor: 'Blue',
-          address: '1234 St',
-          fact: 'Uses peppermint toothpaste like a weirdo',
-          image: 'https://api.adorable.io/avatars/285/jonathan@adorable.io.png'},
-        {name: 'Jessica Fern',
-          age: 20,
-          eyecolor: 'Hazel',
-          address: '1234 Road',
-          fact: 'Grows her own parsley in her backyard',
-          image: 'https://api.adorable.io/avatars/285/jessica@adorable.io.png'},
-        {name: 'Jordan Kale',
-          age: 50,
-          eyecolor: 'Hazel',
-          address: '1234 Ln',
-          fact: 'Owns three gorgeous cats: Fergeson, Jeffrey, and Monica',
-          image: 'https://api.adorable.io/avatars/285/jordan@adorable.io.png'}
-      ]
+      searchDelay: '',
+      people: [],
+      loader: true
     }
   },
+
+  components: {
+    ClipLoader
+  },
+
+  mounted () {
+    this.getPeople()
+  },
+
+  methods: {
+
+    async getPeople () {
+      axios.get(`http://localhost:8081/api/people`)
+        .then(response => {
+          this.people = response.data
+        })
+        .catch(e => {
+          this.errors.push(e)
+        })
+      this.loader = false
+    },
+
+    /* Here's your simulated delay for you */
+    delaySearch () {
+      this.loader = true
+      this.search = '---'
+      setTimeout(() => { this.search = this.searchDelay; this.loader = false }, 750)
+    }
+  },
+
   computed: {
-    filteredPeople: function () {
+    filteredPeople () {
       return this.people.filter((person) => {
         return person.name.toLowerCase().includes(this.search.toLowerCase())
       })
     }
   }
 }
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
