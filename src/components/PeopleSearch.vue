@@ -8,7 +8,7 @@
       <div class="col-md-12">
         <b-button-group>
         <b-form-input v-model="searchDelay" type="text" placeholder="Search by name"></b-form-input>
-        <b-button @click="delaySearch">Search</b-button>
+        <b-button @click="delaySearch">Search</b-button> <!-- Button isn't required, but I did it to help with simulating a slow search. Alternatively I could use Debounce. -->
         </b-button-group>
 
         <table class="table table-striped table-bordered table-sm">
@@ -84,7 +84,7 @@ export default {
       this.loader = false
     },
 
-    /* Here's your simulated delay for you */
+    /* Here's a simulated delay for you */
     delaySearch () {
       this.loader = true
       this.search = '---'
