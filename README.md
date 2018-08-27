@@ -2,8 +2,8 @@
 > A Vue.js project
 
 # start server (do first)
-Enter 'Backend Server', build, and run 'PeopleSearch.sln' using Visual Studio
-Ensure you're on the latest version of AspNetCore, and EntityFrameworkCore
+Enter 'Backend Server', build, and run 'PeopleSearch.sln' using Visual Studio.
+Ensure you're on the latest version of AspNetCore, and EntityFrameworkCore.
 
 # install dependencies
 npm install
