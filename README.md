@@ -1,3 +1,5 @@
+This is a small example project with front-end and back-end.
+
 # people-search
 > A Vue.js project
 
