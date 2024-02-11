@@ -1,4 +1,4 @@
-This is a small example project with front-end and back-end.
+This is a small example project with front-end and back-end. I believe it was done for an interview many years ago. Didn't get the job, but hey, I learned a few things along the way. 
 
 # people-search
 > A Vue.js project
